@@ -17,6 +17,7 @@ The 'Pannuke_dataset' folder contains the original dataset with seperate sub-fol
 # Data Preprocessing
 The 'pannuke_pre_processing.ipynb' notebook is used to pre-process and convert the original dataset in a structure that detectron 2 expects.
 
+# Data Training and Inference
 On succesfully running the pre-processing notebook, a folder called 'final_pannule_dataset' is created along with the train.json and val.json files which are in coco format.
 
 The created folder and json annotation files can be now used to train the MaskRCNN model using the 'pannuke_maskrcnn_training.ipynb' notebook. Inference is done in the same notebook.
