@@ -1,6 +1,6 @@
 # Mask-RCNN-using-Dtectron2-
 The Detectron 2 MaskRCNN implementation for the PanNuke Dataset.
-(https://warwick.ac.uk/fac/cross_fac/tia/data/pannuke)).
+Download Pannuke dataset from here: (https://warwick.ac.uk/fac/cross_fac/tia/data/pannuke)).
 
 # Environment Setup
 Install Detectron2 framework (https://github.com/facebookresearch/detectron2)
