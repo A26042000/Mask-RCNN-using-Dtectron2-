@@ -2,6 +2,12 @@
 The Detectron 2 MaskRCNN implementation for the PanNuke Dataset.
 (https://warwick.ac.uk/fac/cross_fac/tia/data/pannuke)).
 
+# Environment Setup
+Install Detectron2 framework (https://github.com/facebookresearch/detectron2)
+set up the environment using:
+pip install -r requirements.txt
+
+
 # Dataset information
 The dataset consists of 481 visual fields, of which 312 are randomly sampled from more than 20K whole slide images at different magnifications, from multiple data sources. In total the dataset contains 205,343 labeled nuclei, each with an instance segmentation mask.
 
